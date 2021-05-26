@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Develop\style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -31,46 +31,27 @@
     <div class="container">
       <!-- Timeblocks go here -->
 
-      <div class="container">
-        <div class="row">
-          <div class="col" id="hour">
-            9AM
-          </div>
-          <div class="col-8 input-group" id= "textField">
-            <div class="input-group">
-              <div class="input-group-prepend">
-              </div>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
-            </div>
-          </div>
-          <div class="col">
-            <button type="button" id="buttons" class="saveBtn">Info</button>
-          </div>
+<div class="container">
+  <div class="row">
+    <div class="col" id="hour9">
+      9AM
+    </div>
+    <div class="col-8 input-group" id= "textarea9am">
+      <div class="input-group">
+        <div class="input-group-prepend">
         </div>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
       </div>
-<!--CLOSURE OF BLOCK-->
-      <!-- Timeblocks go here -->
-      <div class="container">
-        <div class="row">
-          <div class="col" id="hour">
-            10AM
-          </div>
-          <div class="col-8 input-group" id= "textField">
-            <div class="input-group">
-              <div class="input-group-prepend">
-              </div>
-              <textarea class="form-control" aria-label="With textarea"></textarea>
-            </div>
-          </div>
-          <div class="col">
-            <button type="button" id="buttons" class="saveBtn">Info</button>
-          </div>
-        </div>
-      </div>
-<!--CLOSURE OF BLOCK-->
+    </div>
+    <div class="col">
+      <button type="button" id="saveBtn9am" class="saveBtn">Save</button>
+    </div>
+  </div>
+</div>
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-    <script src="script.js"></script>
+    <script src="Develop\script.js"></script>
     </body>
 </html>
