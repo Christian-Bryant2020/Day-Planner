@@ -18,9 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Develop\style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
+
 
   <body>
     <header class="jumbotron">
@@ -32,7 +33,7 @@
       <!-- Timeblocks go here -->
 
 <div class="container">
-  <div class="row" >
+  <div class="row" data-value="9">
     <div class="span" id="hour">
       9am
     </div>
@@ -48,7 +49,7 @@
     </div>
   </div>
         <!-- Timeblocks go here -->
-        <div class="row" >
+        <div class="row"  data-value="10">
           <div class="span" id="hour">
             10am
           </div>
@@ -63,7 +64,7 @@
             <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
           </div>
         </div>
-        <div class="row" >
+        <div class="row" data-value="11" >
           <div class="span" id="hour">
             11am
           </div>
@@ -78,11 +79,86 @@
             <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
           </div>
         </div>
-        <div class="row" >
+        <div class="row" data-value="12" >
           <div class="span" >
             12am
           </div>
           <div class="col-8 input-group" >
+            <div class="input-group col-8 textarea">
+              <div class="input-group-prepend">
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
+          </div>
+        </div>
+        <div class="row" data-value="13">
+          <div class="span" id="hour">
+            1pm
+          </div>
+          <div class="col-8 input-group" id= "textarea">
+            <div class="input-group col-8 textarea">
+              <div class="input-group-prepend">
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
+          </div>
+        </div>
+        <div class="row" data-value="14">
+          <div class="span" id="hour">
+            2pm
+          </div>
+          <div class="col-8 input-group" id= "textarea">
+            <div class="input-group col-8 textarea">
+              <div class="input-group-prepend">
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
+          </div>
+        </div>
+        <div class="row" data-value="15">
+          <div class="span" id="hour">
+            3pm
+          </div>
+          <div class="col-8 input-group" id= "textarea">
+            <div class="input-group col-8 textarea">
+              <div class="input-group-prepend">
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
+          </div>
+        </div>
+        <div class="row" data-value="16">
+          <div class="span" id="hour">
+            4pm
+          </div>
+          <div class="col-8 input-group" id= "textarea">
+            <div class="input-group col-8 textarea">
+              <div class="input-group-prepend">
+              </div>
+              <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" id="saveBtn" class="col saveBtn fas fa-save">Save</button>
+          </div>
+        </div>
+        <div class="row" data-value="17">
+          <div class="span" id="hour">
+            5pm
+          </div>
+          <div class="col-8 input-group" id= "textarea">
             <div class="input-group col-8 textarea">
               <div class="input-group-prepend">
               </div>
