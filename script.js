@@ -1,12 +1,24 @@
 const currentDay = dayjs().format('ddd, MMMM D YYYY');
 const date = document.getElementById('todayDate');
-const hour = document.getElementById('hour');
-const hour2 = document.querySelectorAll('[id=hour]');
+const hour =  dayjs().format("H");
 console.log(hour)
 
 date.innerText = currentDay;
 
-// function createItem() {
-// 	localStorage.setItem('hour', 'text'); 
-// innerHTML: "\n            10AM\n          "
-// innerText: "\n            10AM\n          "
+$(document).ready(function(){
+    var span = $(".span")
+    var text = $("textarea")
+    var saveButton = $("saveBtn")
+console.log(span)
+console.log(text)
+console.log(saveButton)
+
+});
+
+//display local storage text
+function displayItems() {
+    let value = localStorage.getItem(key);
+    if(value) {
+        $(`#text${key}`).text(value);
+    }
+};
